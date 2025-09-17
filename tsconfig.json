@@ -7,8 +7,8 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "es2022",
-    "moduleResolution": "bundler",
+    "module": "esnext",
+    "moduleResolution": "node", // or "node16", "nodenext"
     "target": "esnext",
     "types": ["node"],
     // For nodejs:
